@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid #333;
+  background: #fff;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tab.active {
+  background: orange;
+}
+
+.content {
+  display: none;
+  padding: 15px;
+  border-top: 1px solid #333;
+}
+
+.content.active {
+  display: block;
+}
